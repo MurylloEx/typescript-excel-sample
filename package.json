@@ -1,0 +1,23 @@
+{
+  "name": "excel-sample",
+  "version": "1.0.0",
+  "description": "A sample of Excel document file built with Node.js and ExcelJS",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": ["excel", "typescript", "document", "worksheet", "workbook"],
+  "author": "Muryllo Pimenta de Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/node": "^14.18.43",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  }
+}
